@@ -13,9 +13,10 @@
   "author": "Chris Zhou <chrisrzhou@pm.me> (https://chrisrzhou.io)",
   "type": "module",
   "bin": "./cli.js",
-  "dependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
   "devDependencies": {
-    "minimist": "^1.2.5",
     "xo": "^0.38.2"
   },
   "scripts": {

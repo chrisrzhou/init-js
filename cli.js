@@ -12,7 +12,7 @@ const LICENSE = 'license';
 const PACKAGE = 'package.json';
 const README = 'readme.md';
 
-const run = () => {
+const init = () => {
   const args = validateArgs();
   const config = validateConfig();
 
@@ -36,4 +36,4 @@ const run = () => {
   }
 };
 
-run();
+init();
