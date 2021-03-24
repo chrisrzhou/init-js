@@ -1,0 +1,40 @@
+{
+  "name": "init-js",
+  "version": "0.1.0",
+  "description": "Initialize js projects",
+  "license": "MIT",
+  "keywords": [
+    "initialize",
+    "bootstrap",
+    "js"
+  ],
+  "repository": "chrisrzhou/init-js",
+  "bugs": "https://github.com/chrisrzhou/init-js/issues",
+  "author": "Chris Zhou <chrisrzhou@pm.me> (https://chrisrzhou.io)",
+  "type": "module",
+  "bin": "./cli.js",
+  "dependencies": {},
+  "devDependencies": {
+    "minimist": "^1.2.5",
+    "xo": "^0.38.2"
+  },
+  "scripts": {
+    "lint": "xo --fix"
+  },
+  "engines": {
+    "node": ">=12.17.0"
+  },
+  "prettier": {
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "trailingComma": "all",
+    "useTabs": false
+  },
+  "xo": {
+    "prettier": true,
+    "esnext": false,
+    "rules": {
+      "no-negated-condition": "off"
+    }
+  }
+}

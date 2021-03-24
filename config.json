@@ -1,0 +1,34 @@
+{
+  "author": {
+    "firstName": "Chris",
+    "lastName": "Zhou",
+    "email": "chrisrzhou@pm.me",
+    "url": "https://chrisrzhou.io",
+    "github": "chrisrzhou"
+  },
+  "package": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+      "xo": "^0.38.2"
+    },
+    "scripts": {
+      "lint": "xo --fix"
+    },
+    "engines": {
+      "node": ">=12.17.0"
+    },
+    "files": ["index.js"],
+    "prettier": {
+      "bracketSpacing": true,
+      "jsxBracketSameLine": true,
+      "trailingComma": "all",
+      "useTabs": false
+    },
+    "xo": {
+      "prettier": true,
+      "esnext": false
+    }
+  }
+}
