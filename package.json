@@ -1,7 +1,7 @@
 {
   "name": "init-js",
   "version": "0.1.0",
-  "description": "Initialize js projects",
+  "description": "A simple config-driven CLI to initialize JS projects",
   "license": "MIT",
   "keywords": [
     "initialize",

@@ -1,6 +1,6 @@
 # init-js
 
-An simple config-driven CLI to initialize JS projects.
+A simple config-driven CLI to initialize JS projects.
 
 ---
 
@@ -33,7 +33,7 @@ Creates the following files:
 
 ### Config
 
-You can use a custom config file with the `--config`.
+You can use a custom config file with the `--config` argument.
 
 The base config is personalized for use by the [author][].
 
