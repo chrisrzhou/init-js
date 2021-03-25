@@ -1,33 +1,30 @@
 # init-js
 
-Initialize JS projects.
+An simple config-driven CLI to initialize JS projects.
 
 ---
 
-## Intro
-An simple config-driven CLI to initialize JS projects.
-
-The base config is personalized for use by the [author][].
-
 ## Install
 
-Install **globally** from the [Github][] repo.
+You may install globally with NPM from the [Github][] repo but it is recommended to [use](#use) directly with `npx` as detailed in the next section.
 
-```js
+```sh
 npm install -g chrisrzhou/init-js
 ```
-
-> Note: this project will most likely **never** be formalized as an NPM package.
 
 ## Use
 
 `init-js` is an [ESM][] and requires at least Node 12+.
 
+Use with `npx`:
+
 ```sh
-init-js --name=my-package-name
+npx init-js --name=my-package-name
 ```
 
-Creates the following minimal files
+The `--name` argument is required and will be used across initialized files.
+
+Creates the following files:
 - `.editorconfig`
 - `.gitignore`
 - `license` (MIT)
@@ -36,10 +33,12 @@ Creates the following minimal files
 
 ### Config
 
-You can either update the source `config.json` file or specify the `--config` argument to configure the initialization script.
+You can use a custom config file with the `--config`.
+
+The base config is personalized for use by the [author][].
 
 ```sh
-init-js --name=my-package-name --config=./path/to/config.json
+npx init-js --name=my-package-name --config=path/to/my-config.json
 ```
 
 ```ts

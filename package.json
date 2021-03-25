@@ -13,7 +13,9 @@
   "author": "Chris Zhou <chrisrzhou@pm.me> (https://chrisrzhou.io)",
   "type": "module",
   "files": [
+    "lib/",
     "cli.js",
+    "config.json",
     ".editorconfig",
     ".gitignore"
   ],
