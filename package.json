@@ -4,9 +4,10 @@
   "description": "A simple config-driven CLI to initialize JS projects",
   "license": "MIT",
   "keywords": [
-    "initialize",
-    "bootstrap",
-    "js"
+    "init",
+    "js",
+    "esm",
+    "node"
   ],
   "repository": "chrisrzhou/init-js",
   "bugs": "https://github.com/chrisrzhou/init-js/issues",
