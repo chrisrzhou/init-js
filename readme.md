@@ -57,7 +57,6 @@ interface Config {
 
 ## Todo
 - [ ] Update CLI to support `--config=<CONFIG_PATH>`
-- [ ] Repoint `node_modules` relative to `bin`
 
 <!-- defs -->
 [author]: https://github.com/chrisrzhou
