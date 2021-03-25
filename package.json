@@ -33,7 +33,12 @@
     "prettier": true,
     "esnext": false,
     "rules": {
-      "unicorn/no-array-callback-reference": "off"
+      "capitalized-comments": "off",
+      "padding-line-between-statements": "off",
+      "unicorn/no-array-callback-reference": "off",
+      "unicorn/no-array-for-each": "off",
+      "unicorn/no-array-reduce": "off",
+      "unicorn/prefer-spread": "off"
     }
   }
 }

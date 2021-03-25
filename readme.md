@@ -39,7 +39,7 @@ Creates the following minimal files
 You can either update the source `config.json` file or specify the `--config` argument to configure the initialization script.
 
 ```sh
-init-js --name=my-package-name --config=path/to/config
+init-js --name=my-package-name --config=./path/to/config.json
 ```
 
 ```ts
@@ -54,9 +54,6 @@ interface Config {
   package: NodePackageInterface; // https://nodejs.dev/learn/the-package-json-guide
 };
 ```
-
-## Todo
-- [ ] Update CLI to support `--config=<CONFIG_PATH>`
 
 <!-- defs -->
 [author]: https://github.com/chrisrzhou
