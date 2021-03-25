@@ -13,9 +13,7 @@
   "author": "Chris Zhou <chrisrzhou@pm.me> (https://chrisrzhou.io)",
   "type": "module",
   "bin": "./cli.js",
-  "dependencies": {
-    "minimist": "^1.2.5"
-  },
+  "dependencies": {},
   "devDependencies": {
     "xo": "^0.38.2"
   },
@@ -35,7 +33,7 @@
     "prettier": true,
     "esnext": false,
     "rules": {
-      "no-negated-condition": "off"
+      "unicorn/no-array-callback-reference": "off"
     }
   }
 }
