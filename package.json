@@ -12,6 +12,11 @@
   "bugs": "https://github.com/chrisrzhou/init-js/issues",
   "author": "Chris Zhou <chrisrzhou@pm.me> (https://chrisrzhou.io)",
   "type": "module",
+  "files": [
+    "cli.js",
+    ".editorconfig",
+    ".gitignore"
+  ],
   "bin": "./cli.js",
   "dependencies": {},
   "devDependencies": {
