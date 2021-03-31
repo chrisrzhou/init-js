@@ -3,23 +3,34 @@
     "firstName": "Chris",
     "lastName": "Zhou",
     "email": "chrisrzhou@pm.me",
-    "url": "https://chrisrzhou.io",
-    "github": "chrisrzhou"
+    "url": "https://chrisrzhou.io"
+  },
+  "github": {
+    "user": "chrisrzhou"
   },
   "package": {
     "version": "0.1.0",
     "license": "MIT",
+    "files": [
+      "lib/",
+      "index.js",
+      "index.d.js"
+    ],
+    "main": "index.js",
+    "types": "index.d.js",
     "dependencies": {},
     "devDependencies": {
+      "c8": "^7.7.0",
       "xo": "^0.38.2"
     },
     "scripts": {
-      "lint": "xo --fix"
+      "format": "xo --fix",
+      "test-coverage": "c8 --check-coverage --lines 100 --functions 100 --branches 100 --reporter lcov node test/index.js",
+      "test": "npm run format; npm run test-coverage"
     },
     "engines": {
       "node": ">=12.17.0"
     },
-    "files": ["index.js"],
     "prettier": {
       "bracketSpacing": true,
       "jsxBracketSameLine": true,

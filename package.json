@@ -26,7 +26,7 @@
     "xo": "^0.38.2"
   },
   "scripts": {
-    "lint": "xo --fix"
+    "format": "xo --fix"
   },
   "engines": {
     "node": ">=12.17.0"

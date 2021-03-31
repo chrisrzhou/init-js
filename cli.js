@@ -19,7 +19,7 @@ const init = () => {
     if (config) {
       writeFile(LICENSE, createLicense(config));
       writeFile(PACKAGE, createPackage(config, args.name));
-      writeFile(README, createReadme(args.name));
+      writeFile(README, createReadme(config, args.name));
     }
     copyFile(EDITORCONFIG);
     copyFile(GITIGNORE);
