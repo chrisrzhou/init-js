@@ -58,8 +58,8 @@ interface Config {
 ```
 
 <!-- badges -->
-[build-badge]: https://github.com/uinix-js/uinix-fp/workflows/main/badge.svg
-[build]: https://github.com/uinix-js/uinix-fp/actions
+[build-badge]: https://github.com/chrisrzhou/init-js/workflows/main/badge.svg
+[build]: https://github.com/chrisrzhou/init-js/actions
 
 <!-- defs -->
 [author]: https://github.com/chrisrzhou
