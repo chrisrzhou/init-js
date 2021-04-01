@@ -19,12 +19,13 @@ npm install -g chrisrzhou/init-js
 Use with `npx`:
 
 ```sh
-npx init-js --name=my-package-name
+npx init-js --name=my-package-name --github=my-github-username
 ```
 
-The `--name` argument is required and will be used across initialized files.
+The `--name` and `--github` are required arguments that will be used to initialize various files.
 
 Creates the following files:
+- `.github/workflow/main.yml`
 - `.editorconfig`
 - `.gitignore`
 - `license` (MIT)

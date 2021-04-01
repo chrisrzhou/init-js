@@ -5,9 +5,6 @@
     "email": "chrisrzhou@pm.me",
     "url": "https://chrisrzhou.io"
   },
-  "github": {
-    "user": "chrisrzhou"
-  },
   "package": {
     "version": "0.1.0",
     "license": "MIT",
@@ -26,7 +23,7 @@
     "scripts": {
       "format": "xo --fix",
       "test-coverage": "c8 --check-coverage --lines 100 --functions 100 --branches 100 --reporter lcov node test/index.js",
-      "test": "npm run format; npm run test-coverage"
+      "test": "npm run format && npm run test-coverage"
     },
     "engines": {
       "node": ">=12.17.0"

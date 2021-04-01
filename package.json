@@ -26,7 +26,8 @@
     "xo": "^0.38.2"
   },
   "scripts": {
-    "format": "xo --fix"
+    "format": "xo --fix",
+    "test": "echo todo"
   },
   "engines": {
     "node": ">=12.17.0"
