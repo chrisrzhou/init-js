@@ -2,6 +2,8 @@
 
 A simple config-driven CLI to initialize JS projects.
 
+[![Build][build-badge]][build]
+
 ---
 
 ## Install
@@ -39,7 +41,7 @@ You can use a custom config file with the `--config` argument.
 The base config is personalized for use by the [author][].
 
 ```sh
-npx init-js --name=my-package-name --config=path/to/my-config.json
+npx init-js --name=my-package-name --github=my-github-username --config=path/to/my-config.json
 ```
 
 ```ts
@@ -54,6 +56,10 @@ interface Config {
   package: NodePackageInterface; // https://nodejs.dev/learn/the-package-json-guide
 };
 ```
+
+<!-- badges -->
+[build-badge]: https://github.com/uinix-js/uinix-fp/workflows/main/badge.svg
+[build]: https://github.com/uinix-js/uinix-fp/actions
 
 <!-- defs -->
 [author]: https://github.com/chrisrzhou
