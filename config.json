@@ -11,10 +11,10 @@
     "files": [
       "lib/",
       "index.js",
-      "index.d.js"
+      "index.d.ts"
     ],
     "main": "index.js",
-    "types": "index.d.js",
+    "types": "index.d.ts",
     "dependencies": {},
     "devDependencies": {
       "c8": "^7.7.0",
