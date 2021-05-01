@@ -17,6 +17,7 @@ import {
   TSCONFIG_JSON_FILE,
 } from './lib/constants.js';
 import {copyFile, createFolder, touchFile, writeFile} from './lib/file.js';
+import {createGitignoreFile} from './lib/gitignore.js';
 import {createLicense} from './lib/license.js';
 import {createPackage} from './lib/package.js';
 import {createReadme} from './lib/readme.js';
@@ -37,9 +38,10 @@ const run = () => {
 
     touchFile(INDEX_FILE);
     touchFile(INDEX_TEST_FILE);
+    writeFile(GITIGNORE_FILE, createGitignoreFile());
+
     copyFile(GITHUB_WORKFLOW_FILE);
     copyFile(EDITORCONFIG_FILE);
-    copyFile(GITIGNORE_FILE);
     copyFile(TSCONFIG_JSON_FILE);
   }
 };
