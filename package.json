@@ -13,6 +13,18 @@
   "bugs": "https://github.com/chrisrzhou/init-js/issues",
   "author": "Chris Zhou <chrisrzhou@pm.me> (https://chrisrzhou.io)",
   "type": "module",
+  "files": [
+    ".github/",
+    "lib/",
+    ".editorconfig",
+    ".gitignore",
+    "cli.js",
+    "config.json",
+    "license",
+    "package.json",
+    "readme.md",
+    "tsconfig.json"
+  ],
   "bin": "./cli.js",
   "dependencies": {
     "minimist": "^1.2.5"
