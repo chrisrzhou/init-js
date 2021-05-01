@@ -36,12 +36,12 @@
     "node": ">=12"
   },
   "prettier": {
-    "tabWidth": 2,
-    "useTabs": false,
-    "singleQuote": true,
     "bracketSpacing": false,
     "semi": true,
-    "trailingComma": "all"
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "useTabs": false
   },
   "xo": {
     "prettier": true,
