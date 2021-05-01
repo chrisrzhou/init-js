@@ -16,8 +16,10 @@
   "files": [
     ".github/",
     "lib/",
+    ".editorconfig",
     "cli.js",
-    "config.json"
+    "config.json",
+    "tsconfig.json"
   ],
   "bin": "./cli.js",
   "dependencies": {
