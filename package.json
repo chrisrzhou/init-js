@@ -14,13 +14,10 @@
   "author": "Chris Zhou <chrisrzhou@pm.me> (https://chrisrzhou.io)",
   "type": "module",
   "files": [
-    ".github/",
+    "files/",
     "lib/",
-    ".editorconfig",
-    ".gitignore",
     "cli.js",
-    "config.json",
-    "tsconfig.json"
+    "config.json"
   ],
   "bin": "./cli.js",
   "dependencies": {
