@@ -23,6 +23,7 @@
   "bin": "./cli.js",
   "dependencies": {},
   "devDependencies": {
+    "minimist": "^1.2.5",
     "xo": "^0.38.2"
   },
   "scripts": {
