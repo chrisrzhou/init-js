@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { validateArgs } from './lib/args.js';
-import { validateConfig } from './lib/config.js';
+import {validateArgs} from './lib/args.js';
+import {validateConfig} from './lib/config.js';
 import {
   GITHUB_WORKFLOW_FOLDER,
   LIB_FOLDER,
@@ -16,10 +16,10 @@ import {
   README_FILE,
   TSCONFIG_JSON_FILE,
 } from './lib/constants.js';
-import { copyFile, createFolder, touchFile, writeFile } from './lib/file.js';
-import { createLicense } from './lib/license.js';
-import { createPackage } from './lib/package.js';
-import { createReadme } from './lib/readme.js';
+import {copyFile, createFolder, touchFile, writeFile} from './lib/file.js';
+import {createLicense} from './lib/license.js';
+import {createPackage} from './lib/package.js';
+import {createReadme} from './lib/readme.js';
 
 const run = () => {
   const args = validateArgs();

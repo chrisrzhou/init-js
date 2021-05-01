@@ -8,23 +8,23 @@ A simple config-driven CLI to initialize JS projects.
 
 ## Install
 
-You may install globally with NPM from the [Github][] repo but it is recommended to [use](#use) directly with `npx` as detailed in the next section.
+You may install globally with NPM from the [Github][] repo but it is *recommended* to [use](#use) directly with `npx` as detailed in the next section.
 
 ```sh
-npm install -g chrisrzhou/init-js
+npm install -g github:chrisrzhou/init-js
 ```
 
 ## Use
 
-`init-js` is an [ESM][] and requires at least Node 12+.
+`init-js` is an [ESM][] module requiring Node 12+.
 
 Use with `npx`:
 
 ```sh
-npx init-js --name=my-package-name --github=my-github-username
+npx github:chrisrzhou/init-js --github my-github-username --name my-package-name
 ```
 
-The `--name` and `--github` are required arguments that will be used to initialize various files.
+The `--github` and `--name` are required arguments that will be used to initialize various files.
 
 Creates the following files:
 - `.github/workflow/main.yml`
@@ -33,6 +33,7 @@ Creates the following files:
 - `license` (MIT)
 - `package.json`
 - `readme.md`
+- `tsconfig.json`
 
 ### Config
 

@@ -21,34 +21,34 @@
     ".gitignore"
   ],
   "bin": "./cli.js",
-  "dependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
   "devDependencies": {
-    "minimist": "^1.2.5",
-    "xo": "^0.38.2"
+    "xo": "^0.39.1"
   },
   "scripts": {
     "lint": "xo --fix",
     "test": "echo todo"
   },
   "engines": {
-    "node": ">=12.17.0"
+    "node": ">=12"
   },
   "prettier": {
-    "bracketSpacing": true,
-    "jsxBracketSameLine": true,
-    "trailingComma": "all",
-    "useTabs": false
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "semi": true,
+    "trailingComma": "all"
   },
   "xo": {
     "prettier": true,
     "esnext": false,
     "rules": {
-      "capitalized-comments": "off",
-      "padding-line-between-statements": "off",
       "unicorn/no-array-callback-reference": "off",
       "unicorn/no-array-for-each": "off",
-      "unicorn/no-array-reduce": "off",
-      "unicorn/prefer-spread": "off"
+      "unicorn/no-array-reduce": "off"
     }
   }
 }
