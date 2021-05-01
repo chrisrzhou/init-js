@@ -20,9 +20,6 @@
     ".gitignore",
     "cli.js",
     "config.json",
-    "license",
-    "package.json",
-    "readme.md",
     "tsconfig.json"
   ],
   "bin": "./cli.js",
